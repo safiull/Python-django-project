@@ -1,0 +1,9 @@
+{% for i in name %}
+
+    
+    <li><a href="{% url 'details' i.id %}">{{ i.name }}</li></a>
+
+
+
+
+{% endfor %}
